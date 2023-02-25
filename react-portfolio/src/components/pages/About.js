@@ -3,15 +3,13 @@ import React from 'react';
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+ <section> 
+                <h2 id="aboutMe">About Me</h2> 
+                <div className="main">
+                    <p>My name is Lesley Vaden. 👋 I am looking for a full stack dev job. I'm currently based out of Princeton NJ and have experience in html, css, and JavaScript.  I have a bachelor's degree in Philosophy and am currently enrolled in the Rutgers Full Stack Coding bootcamp.</p>
+                </div>
+                 
+            </section>
     </div>
   );
 }
