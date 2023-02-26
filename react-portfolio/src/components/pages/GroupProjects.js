@@ -3,7 +3,7 @@ import React from "react";
 const styles = {
   linkStyles: {
     maxWidth: "18rem",
-    color: "#6d6875",
+    backgroundColor: "#e5989b",
   },
 };
 export default function GroupProjects() {
@@ -14,7 +14,7 @@ export default function GroupProjects() {
         <div className="card-container container main">
           <a
             href="https://safe-eyrie-62856.herokuapp.com/"
-            className="card mb-3"
+            className="card my-3"
             style={styles.linkStyles}
           >
             {" "}

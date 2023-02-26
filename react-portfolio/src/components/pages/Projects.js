@@ -3,8 +3,7 @@ import React from "react";
 const styles = {
   linkStyles: {
     maxWidth: "18rem",
-    textDecoration: "none",
-    color: "#6d6875",
+    backgroundColor: "#e5989b",
   },
 };
 export default function Projects() {
@@ -15,7 +14,7 @@ export default function Projects() {
         <div className="card-container container main">
           <a
             href="https://lesley-byte.github.io/css-html-refactor-horiseon/"
-            className="card mb-3"
+            className="card my-3"
             style={styles.linkStyles}
           >
             {" "}

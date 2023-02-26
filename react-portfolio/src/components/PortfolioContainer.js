@@ -27,6 +27,11 @@ export default function PortfolioContainer() {
   };
 
   const styles = {
+    mainStyles: {
+      backgroundColor: "#ffb4a2",
+      color: "#6d6875",
+      fontFamily: '"Roboto", sans-serif',
+    },
     headerStyles: {
       padding: "10px",
       display: "flex",
@@ -52,11 +57,11 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <div className="navbar navbar-expand-lg bg-light">
+      <div className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <div className="col" style={styles.headerStyles}>
             {/* We are passing the currentPage from state and the function to update it */}
-            <span style={styles.nameStyles}>Lesley Vaden</span>{" "}
+            <span style={styles.nameStyles}>Vaden</span>{" "}
             <NavTabs
               currentPage={currentPage}
               handlePageChange={handlePageChange}

@@ -10,7 +10,12 @@
 
 body {
   background-color: var(--darkestColor) !important;
-  color: var(--lightestColor) !important;
+  color: var(--secondLightest) !important;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  background-color: var(--darkestColor) !important;
+  color: var(--secondLightest) !important;
   font-family: "Roboto", sans-serif;
 }
 
@@ -23,7 +28,7 @@ h1 {
 
 h2 {
   background-color: var(--secondDarkest) !important;
-  color: var(--lightestColor) !important;
+  color: var(---secondLightest) !important;
   font-size: 2rem;
   font-weight: 700;
   margin: 0;
@@ -37,7 +42,7 @@ h3 {
 }
 
 p {
-  color: var(--lightestColor) !important;
+  color: var(--secondLightest) !important;
   font-size: 1rem;
   font-weight: 400;
   margin: 0;
@@ -45,9 +50,33 @@ p {
 
 a {
   color: var(--secondLightest) !important;
+  background-color: var(--secondDarkest) !important;
+  border-color: var(---secondLightest) !important;
   font-size: 1rem;
   font-weight: 400;
   margin: 0;
+}
+/* on hover */
+
+a:focus {
+  color: var(--secondDarkest) !important;
+  background-color: var(--secondLightest) !important;
+  border-color: var(---neutralDark) !important;
+}
+a:active {
+  color: var(--secondDarkest) !important;
+  background-color: var(--secondLightest) !important;
+  border-color: var(---neutralDark) !important;
+}
+a:hover {
+  color: var(--secondDarkest) !important;
+  background-color: var(--secondLightest) !important;
+  border-color: var(---neutralDark) !important;
+}
+a::before {
+  color: var(--secondDarkest) !important;
+  background-color: var(--secondLightest) !important;
+  border-color: var(---neutralDark) !important;
 }
 
 /* Path: src\components\assets\css\style.css */
