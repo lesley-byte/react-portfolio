@@ -3,6 +3,8 @@ import React from "react";
 const styles = {
   linkStyles: {
     maxWidth: "18rem",
+    textDecoration: "none",
+    color: "#6d6875",
   },
 };
 export default function Projects() {

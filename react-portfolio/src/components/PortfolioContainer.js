@@ -34,14 +34,17 @@ export default function PortfolioContainer() {
       alignItems: "flex-end",
       fontSize: "1.5rem",
       fontFamily: '"Roboto", sans-serif',
+      backgroundColor: "#6d6875",
+      color: "ffb4a2",
     },
     nameStyles: {
       fontSize: "3rem",
       display: "flex",
       justifyContent: "flex-end",
-      backgroundColor: "lightblue",
+      backgroundColor: "#b5838d",
       width: "25vw",
       paddingRight: "10px",
+      color: "#6d6875",
     },
   };
   // needed this to be explained again.🔥🗑️????

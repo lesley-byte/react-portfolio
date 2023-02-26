@@ -3,8 +3,8 @@ import React from "react";
 const styles = {
   linkStyles: {
     maxWidth: "18rem",
+    color: "#6d6875",
   },
-
 };
 export default function GroupProjects() {
   return (
@@ -14,7 +14,8 @@ export default function GroupProjects() {
         <div className="card-container container main">
           <a
             href="https://safe-eyrie-62856.herokuapp.com/"
-            className="card mb-3" style={styles.linkStyles}
+            className="card mb-3"
+            style={styles.linkStyles}
           >
             {" "}
             <div id="item1">
@@ -24,7 +25,8 @@ export default function GroupProjects() {
           </a>
           <a
             href="https://cmcclay77.github.io/super-team-project/"
-            className="card mb-3"  style={styles.linkStyles}
+            className="card mb-3"
+            style={styles.linkStyles}
           >
             {" "}
             <div>

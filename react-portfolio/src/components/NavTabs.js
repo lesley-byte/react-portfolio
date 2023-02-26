@@ -1,20 +1,27 @@
 import React from "react";
 
-const styles = {};
+const styles = {
+  linkStyles: {
+    fontSize: "1.5rem",
+    fontFamily: '"Roboto", sans-serif',
+    backgroundColor: "#b5838d",
+    color: "ffb4a2",
+    textDecoration: "none",
+  },
+};
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
-      <li className="nav-item" style={styles.linkStyles}>
+      <li className="nav-item">
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === "Home" ? "nav-link active" : "nav-link"}
-          style={styles.linkStyles}
         >
           Home
         </a>
