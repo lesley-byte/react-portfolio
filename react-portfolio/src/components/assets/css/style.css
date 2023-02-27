@@ -41,12 +41,11 @@ h2 {
 }
 
 h3 {
-  color: var(--darkestColor) !important;
-  font-size: 1.5rem;
+  color: var(--secondLightest) !important;
+  font-size: 4rem;
   font-weight: 700;
-  margin: 0;
+  margin: 10px;
   display: flex;
-  border-radius: 0px 5px 5px 0px;
 }
 
 section {

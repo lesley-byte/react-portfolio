@@ -1,6 +1,7 @@
 import React from "react";
 import screenshot from "../assets/images/screenshot.jpeg";
 import wordSearch from "../assets/images/wordSearch.png";
+import Fade from 'react-reveal/Fade';
 
 const styles = {
   linkStyles: {
@@ -18,7 +19,9 @@ export default function GroupProjects() {
   return (
     <div>
       <section>
+        <Fade left>
         <h2 id="myProjects">Group Projects</h2>
+        </Fade>
         <div className="card-container container main d-flex">
           <a
             href="https://safe-eyrie-62856.herokuapp.com/"

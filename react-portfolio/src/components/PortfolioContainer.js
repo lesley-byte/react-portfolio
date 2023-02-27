@@ -5,6 +5,8 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import GroupProjects from "./pages/GroupProjects";
 import Contact from "./pages/Contact";
+import Name from "./pages/Name";
+import Fade from "react-reveal/Fade";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -61,8 +63,7 @@ export default function PortfolioContainer() {
       <div className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <div className="col" style={styles.headerStyles}>
-            {/* We are passing the currentPage from state and the function to update it */}
-            <span style={styles.nameStyles}>Vaden</span>{" "}
+            <Name />
             <NavTabs
               currentPage={currentPage}
               handlePageChange={handlePageChange}
