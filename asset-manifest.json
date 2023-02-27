@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2ded381b.css",
-    "main.js": "/react-portfolio/static/js/main.f0843fee.js",
+    "main.css": "/react-portfolio/static/css/main.a2ee71f3.css",
+    "main.js": "/react-portfolio/static/js/main.5388a88e.js",
+    "static/media/wires.png": "/react-portfolio/static/media/wires.0a14c0a5970c4fa6b993.png",
     "static/media/lesley-byte-portfolio.png": "/react-portfolio/static/media/lesley-byte-portfolio.a7a751aec002a48bde0e.png",
-    "static/media/wiresSmall.png": "/react-portfolio/static/media/wiresSmall.0194f0de7782629f51e4.png",
     "static/media/byte-writer.png": "/react-portfolio/static/media/byte-writer.8a12a57735c1f54cd35c.png",
     "static/media/byteSchedule.png": "/react-portfolio/static/media/byteSchedule.406a21fb7545066d9f77.png",
     "static/media/wordSearch.png": "/react-portfolio/static/media/wordSearch.5ff0b5dbc3e6e2a60c71.png",
@@ -12,11 +12,11 @@
     "static/media/screenshot.jpeg": "/react-portfolio/static/media/screenshot.4fab8f834a621cf73535.jpeg",
     "static/media/byte-note-taker.png": "/react-portfolio/static/media/byte-note-taker.32649e2acbd650acfdc4.png",
     "index.html": "/react-portfolio/index.html",
-    "main.2ded381b.css.map": "/react-portfolio/static/css/main.2ded381b.css.map",
-    "main.f0843fee.js.map": "/react-portfolio/static/js/main.f0843fee.js.map"
+    "main.a2ee71f3.css.map": "/react-portfolio/static/css/main.a2ee71f3.css.map",
+    "main.5388a88e.js.map": "/react-portfolio/static/js/main.5388a88e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ded381b.css",
-    "static/js/main.f0843fee.js"
+    "static/css/main.a2ee71f3.css",
+    "static/js/main.5388a88e.js"
   ]
 }
