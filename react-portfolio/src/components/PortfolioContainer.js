@@ -49,7 +49,8 @@ export default function PortfolioContainer() {
       backgroundColor: "#b5838d",
       width: "25vw",
       paddingRight: "10px",
-      color: "#6d6875",
+      color: "#ffcdb2",
+      fontWeight: "bold",
     },
   };
   // needed this to be explained again.🔥🗑️????

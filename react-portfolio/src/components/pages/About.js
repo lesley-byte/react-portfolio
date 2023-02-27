@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div>
-      <section>
+      <section className="customWord">
         <h2 id="aboutMe">About Me</h2>
         <div className="main p-3 m-3 fs-3">
           <p>

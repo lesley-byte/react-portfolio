@@ -9,7 +9,6 @@ export default function Home() {
   return (
     <div>
       <HeaderImgs />
-      <h1>Home Page</h1>
       <About />
       <GroupProjects />
       <Projects />

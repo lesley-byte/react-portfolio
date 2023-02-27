@@ -1,8 +1,9 @@
 import React from "react";
 const styles = {
   linkStyles: {
-    textDecoration: "none",
-    color: "#6d6875",
+    fontSize: "1.25rem",
+    backgroundColor: "#6d6875",
+    borderColor: "#b5838d",
   },
 };
 
@@ -18,6 +19,7 @@ export default function Contact() {
                 <a
                   href="mailto:phosphorescence3@hotmail.com"
                   style={styles.linkStyles}
+                  className="badge rounded-pill"
                 >
                   Send Email 💖
                 </a>
@@ -26,6 +28,7 @@ export default function Contact() {
                 <a
                   href="https://github.com/lesley-byte"
                   style={styles.linkStyles}
+                  className="badge rounded-pill"
                 >
                   Github
                 </a>
@@ -34,6 +37,7 @@ export default function Contact() {
                 <a
                   href="https://twitter.com/lesley_vaden"
                   style={styles.linkStyles}
+                  className="badge rounded-pill"
                 >
                   Twitter
                 </a>
@@ -42,6 +46,7 @@ export default function Contact() {
                 <a
                   href="https://www.linkedin.com/in/lesley-vaden-93536bb8/"
                   style={styles.linkStyles}
+                  className="badge rounded-pill"
                 >
                   LinkedIn
                 </a>

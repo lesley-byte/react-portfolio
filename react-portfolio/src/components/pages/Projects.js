@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "../assets/images/hero.png";
 
 const styles = {
   linkStyles: {
@@ -11,27 +12,33 @@ export default function Projects() {
     <div>
       <section>
         <h2 id="myProjects">Projects</h2>
-        <div className="card-container container main">
+        <div className="card-container container main d-flex">
           <a
             href="https://lesley-byte.github.io/css-html-refactor-horiseon/"
-            className="card my-3"
+            className="card m-3"
             style={styles.linkStyles}
           >
             {" "}
-            <div>
-              <h4 className="card-header">Horiseon Refactor</h4>
-              <p className="card-body">▪️ html css</p>
+            <img src={Hero} class="card-img" alt="..."></img>
+            <div class="card-img-overlay">
+              <div>
+                <h4 className="card-header">Horiseon Refactor</h4>
+                <p className="card-body">▪️ html css</p>
+              </div>
             </div>
           </a>
           <a
             href="https://lesley-byte.github.io/css-html-refactor-horiseon/"
-            className="card mb-3"
+            className="card m-3"
             style={styles.linkStyles}
           >
             {" "}
-            <div>
-              <h4 className="card-header">Horiseon Refactor</h4>
-              <p className="card-body">▪️ JavaScript Bulma</p>
+            <img src={Hero} class="card-img" alt="..."></img>
+            <div class="card-img-overlay">
+              <div>
+                <h4 className="card-header">Horiseon Refactor</h4>
+                <p className="card-body">▪️ JavaScript Bulma</p>
+              </div>
             </div>
           </a>
         </div>

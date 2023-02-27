@@ -1,6 +1,7 @@
 import React from "react";
 import Profile from "../assets/images/profile.jpg";
 import Hero from "../assets/images/hero.png";
+import cat from "../assets/images/grayPinkCat.png";
 
 export default function HeaderImgs() {
   const styles = {
@@ -31,7 +32,11 @@ export default function HeaderImgs() {
       width: "100%",
       height: "37.5vh",
       backgroundColor: "#b5838d",
-      backgroundImage: `url(${Hero})`,
+      backgroundImage: `url(${cat})`,
+      backgroundPosition: "center" /* Center the image */,
+      backgroundRepeat: "no-repeat" /* Do not repeat the image */,
+      backgroundSize:
+        "cover" /* Resize the background image to cover the entire container */,
     },
   };
   return (
