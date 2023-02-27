@@ -61,13 +61,13 @@ export default function HeaderImgs() {
           <h3 style={styles.pStyles}>Do you need</h3>
         </Rotate>
         <Rotate top right>
-          <h3 style={styles.pStyles}>a full-stack Developer?</h3>
+          <h3 style={styles.pStyles}>a Full-Stack Developer?</h3>
         </Rotate>
         <Rotate bottom left>
           <h3 style={styles.pStyles}>Look no further!</h3>
         </Rotate>
         <Rotate bottom right>
-          <h3 style={styles.pStyles}>Hi! Nice to meet you!</h3>
+          <h3 style={styles.pStyles}>I am here for you!</h3>
         </Rotate>
       </div>
     </div>
