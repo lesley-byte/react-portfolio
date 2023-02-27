@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ac484dcd.css",
-    "main.js": "/react-portfolio/static/js/main.75fdc0bb.js",
-    "static/media/grayPinkCat.png": "/react-portfolio/static/media/grayPinkCat.fecb9d73f54553c043ea.png",
+    "main.css": "/react-portfolio/static/css/main.2ded381b.css",
+    "main.js": "/react-portfolio/static/js/main.eb111f8a.js",
+    "static/media/lesley-byte-portfolio.png": "/react-portfolio/static/media/lesley-byte-portfolio.a7a751aec002a48bde0e.png",
+    "static/media/wiresSmall.png": "/react-portfolio/static/media/wiresSmall.0194f0de7782629f51e4.png",
+    "static/media/byte-writer.png": "/react-portfolio/static/media/byte-writer.8a12a57735c1f54cd35c.png",
+    "static/media/byteSchedule.png": "/react-portfolio/static/media/byteSchedule.406a21fb7545066d9f77.png",
     "static/media/wordSearch.png": "/react-portfolio/static/media/wordSearch.5ff0b5dbc3e6e2a60c71.png",
+    "static/media/byteWeather.png": "/react-portfolio/static/media/byteWeather.f5e3b7f519b7ed18b74e.png",
     "static/media/profile.jpg": "/react-portfolio/static/media/profile.0c17767017db388048b7.jpg",
     "static/media/screenshot.jpeg": "/react-portfolio/static/media/screenshot.4fab8f834a621cf73535.jpeg",
+    "static/media/byte-note-taker.png": "/react-portfolio/static/media/byte-note-taker.32649e2acbd650acfdc4.png",
     "index.html": "/react-portfolio/index.html",
-    "main.ac484dcd.css.map": "/react-portfolio/static/css/main.ac484dcd.css.map",
-    "main.75fdc0bb.js.map": "/react-portfolio/static/js/main.75fdc0bb.js.map"
+    "main.2ded381b.css.map": "/react-portfolio/static/css/main.2ded381b.css.map",
+    "main.eb111f8a.js.map": "/react-portfolio/static/js/main.eb111f8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac484dcd.css",
-    "static/js/main.75fdc0bb.js"
+    "static/css/main.2ded381b.css",
+    "static/js/main.eb111f8a.js"
   ]
 }
