@@ -1,12 +1,17 @@
 import React from "react";
-import Hero from "../assets/images/hero.png";
 import screenshot from "../assets/images/screenshot.jpeg";
 import wordSearch from "../assets/images/wordSearch.png";
 
 const styles = {
   linkStyles: {
-    maxWidth: "18rem",
+    minWidth: "25rem",
+    maxWidth: "25rem",
+    minHeight: "fit-content",
+    maxHeight: "fit-content",
     backgroundColor: "#e5989b",
+  },
+  imageStyles: {
+    maxHeight: "fit-content",
   },
 };
 export default function GroupProjects() {
@@ -21,12 +26,16 @@ export default function GroupProjects() {
             style={styles.linkStyles}
           >
             {" "}
-            <img src={screenshot} class="card-img" alt="..."></img>
-            <div class="card-img-overlay">
-              <div id="item1">
-                <h4 className="card-header">Video Game Reviewer</h4>
-                <p className="card-body">▪️ html css</p>
-              </div>
+            <div id="item1">
+              <h4 className="card-header">Video Game Reviewer</h4>
+              <p className="card-body">▪️ html css</p>
+              <img
+                src={screenshot}
+                className="card-img"
+                alt="..."
+                style={styles.imageStyles}
+              ></img>
+              <div className="card-img-overlay"></div>
             </div>
           </a>
           <a
@@ -35,12 +44,16 @@ export default function GroupProjects() {
             style={styles.linkStyles}
           >
             {" "}
-            <img src={wordSearch} class="card-img" alt="..."></img>
-            <div class="card-img-overlay">
-              <div>
-                <h4 className="card-header">Word Search</h4>
-                <p className="card-body">▪️ JavaScript Bulma</p>
-              </div>
+            <div>
+              <h4 className="card-header">Word Search</h4>
+              <p className="card-body">▪️ JavaScript Bulma</p>
+              <img
+                src={wordSearch}
+                className="card-img"
+                alt="..."
+                style={styles.imageStyles}
+              ></img>
+              <div className="card-img-overlay"></div>
             </div>
           </a>
         </div>

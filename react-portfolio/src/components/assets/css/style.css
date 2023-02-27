@@ -71,24 +71,31 @@ a {
 }
 /* on hover */
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
 a:focus {
   color: var(--neutralDark) !important;
   background-color: var(--secondLightest) !important;
   border-color: var(---neutralDark) !important;
 }
 a:active {
-  color: var(--darkestColor) !important;
+  color: var(--neutralDark) !important;
   background-color: var(--secondLightest) !important;
   border-color: var(---neutralDark) !important;
 }
 a:hover {
   color: var(--darkestColor) !important;
   background-color: var(--secondDarkest) !important;
-  border-color: var(---neutralDark) !important;
-}
-a::before {
-  color: var(--secondDarkest) !important;
-  background-color: var(--secondLightest) !important;
   border-color: var(---neutralDark) !important;
 }
 
@@ -100,4 +107,5 @@ a::before {
 .card-container {
   width: 90% !important;
 }
+
 /* Path: src\components\assets\css\style.css */

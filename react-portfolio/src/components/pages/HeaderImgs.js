@@ -1,7 +1,6 @@
 import React from "react";
 import Profile from "../assets/images/profile.jpg";
-import Hero from "../assets/images/hero.png";
-import cat from "../assets/images/grayPinkCat.png";
+import cat from "../assets/images/wiresSmall.png";
 
 export default function HeaderImgs() {
   const styles = {
@@ -43,7 +42,7 @@ export default function HeaderImgs() {
     <div className="bg-dark" style={styles.boxStyles}>
       <img
         src={Profile}
-        alt="profile picture"
+        alt="profile"
         className="profile-img"
         style={styles.profileImgStyles}
       ></img>
