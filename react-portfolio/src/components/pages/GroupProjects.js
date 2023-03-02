@@ -31,7 +31,7 @@ export default function GroupProjects() {
             {" "}
             <div id="item1">
               <h4 className="card-header">Video Game Reviewer</h4>
-              <p className="card-body">▪️ html css</p>
+              <p className="card-body">▪️ MySQL Node Express Sequelize Handlebars</p>
               <img
                 src={screenshot}
                 className="card-img"
@@ -49,7 +49,7 @@ export default function GroupProjects() {
             {" "}
             <div>
               <h4 className="card-header">Word Search</h4>
-              <p className="card-body">▪️ JavaScript Bulma</p>
+              <p className="card-body">▪️ JavaScript Bulma APIs</p>
               <img
                 src={wordSearch}
                 className="card-img"

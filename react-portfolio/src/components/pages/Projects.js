@@ -48,14 +48,14 @@ export default function Projects() {
             </div>
           </a>
           <a
-            href="https://intense-brushlands-19186.herokuapp.com/"
+            href="https://sheltered-brushlands-89312.herokuapp.com/"
             className="card m-3"
             style={styles.linkStyles}
           >
             {" "}
             <div>
-              <h4 className="card-header">My Blog</h4>
-              <p className="card-body">▪️ JavaScript Bulma</p>
+              <h4 className="card-header">Example Tech Post Site</h4>
+              <p className="card-body">▪️ Node, MySQL</p>
               <img
                 src={ByteWriter}
                 className="card-img"
@@ -73,7 +73,7 @@ export default function Projects() {
             {" "}
             <div>
               <h4 className="card-header">Note Taker</h4>
-              <p className="card-body">▪️ JavaScript Bulma</p>
+              <p className="card-body">▪️ JavaScript Heroku Bootstrap</p>
               <img
                 src={ByteNoteTaker}
                 className="card-img"
@@ -91,7 +91,7 @@ export default function Projects() {
             {" "}
             <div>
               <h4 className="card-header">Weather Dashboard</h4>
-              <p className="card-body">▪️ JavaScript Bulma</p>
+              <p className="card-body">▪️ JavaScript Bootstrap </p>
               <img
                 src={ByteWeather}
                 className="card-img"
