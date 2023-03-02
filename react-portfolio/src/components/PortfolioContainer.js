@@ -37,7 +37,7 @@ export default function PortfolioContainer() {
     headerStyles: {
       padding: "10px",
       display: "flex",
-      justifyContent: "space-between",
+      justifyContent: "flex-end",
       alignItems: "flex-end",
       fontSize: "1.5rem",
       fontFamily: '"Roboto", sans-serif',
@@ -73,9 +73,9 @@ export default function PortfolioContainer() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
+          <Name />
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <div className="col" style={styles.headerStyles}>
-              <Name />
               <NavTabs
                 currentPage={currentPage}
                 handlePageChange={handlePageChange}
