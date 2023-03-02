@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.034c7109.css",
-    "main.js": "/react-portfolio/static/js/main.9f1ce2fb.js",
+    "main.js": "/react-portfolio/static/js/main.5f908f83.js",
     "static/media/wires.png": "/react-portfolio/static/media/wires.0a14c0a5970c4fa6b993.png",
     "static/media/lesley-byte-portfolio.png": "/react-portfolio/static/media/lesley-byte-portfolio.a7a751aec002a48bde0e.png",
     "static/media/byte-writer.png": "/react-portfolio/static/media/byte-writer.8a12a57735c1f54cd35c.png",
@@ -13,10 +13,10 @@
     "static/media/byte-note-taker.png": "/react-portfolio/static/media/byte-note-taker.32649e2acbd650acfdc4.png",
     "index.html": "/react-portfolio/index.html",
     "main.034c7109.css.map": "/react-portfolio/static/css/main.034c7109.css.map",
-    "main.9f1ce2fb.js.map": "/react-portfolio/static/js/main.9f1ce2fb.js.map"
+    "main.5f908f83.js.map": "/react-portfolio/static/js/main.5f908f83.js.map"
   },
   "entrypoints": [
     "static/css/main.034c7109.css",
-    "static/js/main.9f1ce2fb.js"
+    "static/js/main.5f908f83.js"
   ]
 }
