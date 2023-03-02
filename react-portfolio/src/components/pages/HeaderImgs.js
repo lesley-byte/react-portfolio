@@ -58,7 +58,7 @@ export default function HeaderImgs() {
       ></img>
       <div style={styles.grayBoxStyles}>
         <Rotate top left>
-          <h3 style={styles.pStyles}>I am a</h3>
+          <h3 style={styles.pStyles}>JavaScript</h3>
         </Rotate>
         <Rotate top right>
           <h3 style={styles.pStyles}>Full</h3>
