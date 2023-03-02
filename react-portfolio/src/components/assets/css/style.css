@@ -31,13 +31,14 @@ h1 {
 h2 {
   background-color: var(--secondDarkest) !important;
   color: var(--darkestColor) !important;
-  width: 18vw;
-  height: 5vh;
+  width: 25vw;
+  height: fit-content;
   font-size: 2rem;
   font-weight: 700;
   margin-top: 1rem;
   display: flex;
   border-radius: 0px 5px 5px 0px;
+  padding: 1px;
 }
 
 h3 {
@@ -106,5 +107,96 @@ a:hover {
 .card-container {
   width: 90% !important;
 }
+/* media queries */
 
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  p {
+    width: 80vw;
+  }
+  img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    width: 70vw;
+  }
+  img {
+    width: 80%;
+  }
+  .boxStyles {
+    height: 70vh !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    width: 75vw;
+  }
+  img {
+    width: 80%;
+  }
+  .react-reveal {
+    font-size: 1.5rem !important;
+  }
+  .boxStyles {
+    height: 50vh !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    width: 65vw;
+  }
+  img {
+    width: 80%;
+  }
+  .card {
+    max-width: 15rem !important;
+    min-width: 15rem !important;
+  }
+  .react-reveal {
+    font-size: 1.5rem !important;
+  }
+  .boxStyles {
+    height: 40vh !important;
+  }
+}
 /* Path: src\components\assets\css\style.css */

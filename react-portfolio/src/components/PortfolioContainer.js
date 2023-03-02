@@ -62,12 +62,25 @@ export default function PortfolioContainer() {
     <div>
       <div className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <div className="col" style={styles.headerStyles}>
-            <Name />
-            <NavTabs
-              currentPage={currentPage}
-              handlePageChange={handlePageChange}
-            />
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <div className="col" style={styles.headerStyles}>
+              <Name />
+              <NavTabs
+                currentPage={currentPage}
+                handlePageChange={handlePageChange}
+              />
+            </div>
           </div>
         </div>
       </div>

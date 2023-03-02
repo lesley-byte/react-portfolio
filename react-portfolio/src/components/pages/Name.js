@@ -34,7 +34,7 @@ export default function Name() {
         <div>
         <Fade left>
         {/* We are passing the currentPage from state and the function to update it */}
-        <span style={styles.nameStyles}>Vaden</span>{" "}
+        <span style={styles.nameStyles} className="Vaden">Vaden</span>{" "}
         </Fade>
         </div>
     );

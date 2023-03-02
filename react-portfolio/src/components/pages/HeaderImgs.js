@@ -30,7 +30,7 @@ export default function HeaderImgs() {
     },
     boxStyles: {
       width: "100%",
-      height: "150vh",
+      height: "88vh",
       backgroundColor: "#b5838d",
       backgroundImage: `url(${cat})`,
       backgroundPosition: "center" /* Center the image */,
@@ -45,11 +45,11 @@ export default function HeaderImgs() {
       border: "5px solid #b5838d",
       borderRadius: "10px",
       backgroundColor: "#b5838d",
-      opacity: "0.8",
+      opacity: "0.85",
     },
   };
   return (
-    <div className="bg-dark" style={styles.boxStyles}>
+    <div className="bg-dark boxStyles" style={styles.boxStyles}>
       <img
         src={Profile}
         alt="profile"
@@ -58,16 +58,16 @@ export default function HeaderImgs() {
       ></img>
       <div style={styles.grayBoxStyles}>
         <Rotate top left>
-          <h3 style={styles.pStyles}>Do you need</h3>
+          <h3 style={styles.pStyles}>I am a</h3>
         </Rotate>
         <Rotate top right>
-          <h3 style={styles.pStyles}>a Full-Stack Developer?</h3>
+          <h3 style={styles.pStyles}>Full</h3>
         </Rotate>
         <Rotate bottom left>
-          <h3 style={styles.pStyles}>Look no further!</h3>
+          <h3 style={styles.pStyles}>Stack</h3>
         </Rotate>
         <Rotate bottom right>
-          <h3 style={styles.pStyles}>I am here for you!</h3>
+          <h3 style={styles.pStyles}>Developer</h3>
         </Rotate>
       </div>
     </div>
