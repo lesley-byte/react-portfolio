@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.9ded1d10.css",
-    "main.js": "/react-portfolio/static/js/main.1c0a359a.js",
+    "main.css": "/react-portfolio/static/css/main.118216ed.css",
+    "main.js": "/react-portfolio/static/js/main.b1b4d537.js",
     "static/media/wires.png": "/react-portfolio/static/media/wires.0a14c0a5970c4fa6b993.png",
     "static/media/lesley-byte-portfolio.png": "/react-portfolio/static/media/lesley-byte-portfolio.a7a751aec002a48bde0e.png",
     "static/media/byte-writer.png": "/react-portfolio/static/media/byte-writer.8a12a57735c1f54cd35c.png",
@@ -12,11 +12,11 @@
     "static/media/screenshot.jpeg": "/react-portfolio/static/media/screenshot.4fab8f834a621cf73535.jpeg",
     "static/media/byte-note-taker.png": "/react-portfolio/static/media/byte-note-taker.32649e2acbd650acfdc4.png",
     "index.html": "/react-portfolio/index.html",
-    "main.9ded1d10.css.map": "/react-portfolio/static/css/main.9ded1d10.css.map",
-    "main.1c0a359a.js.map": "/react-portfolio/static/js/main.1c0a359a.js.map"
+    "main.118216ed.css.map": "/react-portfolio/static/css/main.118216ed.css.map",
+    "main.b1b4d537.js.map": "/react-portfolio/static/js/main.b1b4d537.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ded1d10.css",
-    "static/js/main.1c0a359a.js"
+    "static/css/main.118216ed.css",
+    "static/js/main.b1b4d537.js"
   ]
 }
