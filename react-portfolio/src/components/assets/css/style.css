@@ -109,7 +109,7 @@ a:hover {
 }
 /* media queries */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
   h1 {
     font-size: 2.5rem;
   }
@@ -124,6 +124,9 @@ a:hover {
   }
   img {
     width: 80%;
+  }
+  .customNavTabs {
+    justify-content: normal !important;
   }
 }
 

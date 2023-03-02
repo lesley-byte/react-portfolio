@@ -80,7 +80,7 @@ export default function PortfolioContainer() {
           </button>
           <Name />
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <div className="col" style={styles.headerStyles}>
+            <div className="col customNavTabs" style={styles.headerStyles}>
               <NavTabs
                 currentPage={currentPage}
                 handlePageChange={handlePageChange}
