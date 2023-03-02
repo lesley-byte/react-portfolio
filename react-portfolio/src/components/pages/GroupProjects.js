@@ -20,7 +20,7 @@ export default function GroupProjects() {
     <div>
       <section>
         <Fade left>
-          <h2 id="myProjects">Group Projects</h2>
+          <h2 id="myProjects" className="p-1">Group Projects</h2>
         </Fade>
         <div className="card-container container main d-flex flex-wrap">
           <a

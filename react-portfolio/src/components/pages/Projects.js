@@ -3,7 +3,7 @@ import ByteNoteTaker from "../assets/images/byte-note-taker.png";
 import ByteWriter from "../assets/images/byte-writer.png";
 import ByteSchedule from "../assets/images/byteSchedule.png";
 import ByteWeather from "../assets/images/byteWeather.png";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 
 import BytePortfolio from "../assets/images/lesley-byte-portfolio.png";
 const styles = {
@@ -24,7 +24,9 @@ export default function Projects() {
     <div>
       <section>
         <Fade left>
-        <h2 id="myProjects">Projects</h2>
+          <h2 id="myProjects" className="p-1">
+            Projects
+          </h2>
         </Fade>
         <div className="card-container container main d-flex flex-wrap">
           <a

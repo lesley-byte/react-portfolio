@@ -6,7 +6,7 @@ export default function About() {
     <div>
       <section className="customWord">
         <Fade left>
-        <h2 id="aboutMe">About Me</h2>
+        <h2 id="aboutMe" className="p-1">About Me</h2>
         </Fade>
         <div className="main p-3 m-3 fs-3">
           <p>
