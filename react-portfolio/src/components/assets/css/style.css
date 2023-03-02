@@ -127,6 +127,25 @@ a:hover {
   }
   .customNavTabs {
     justify-content: normal !important;
+    width: fill-available !important;
+  }
+  .nav-link {
+    border-radius: 0px !important;
+    background-color: var(--darkestColor) !important;
+    width: fill-available !important;
+  }
+  a {
+    border-radius: 0px !important;
+    background-color: var(--darkestColor) !important;
+    color: var(--neutralDark) !important;
+    width: 100% !important;
+    border-color: var(--secondDarkest) !important;
+    font-size: smaller !important;
+    width: fill-available !important;
+  }
+  .navTabs{
+
+    width: fill-available !important;
   }
 }
 
