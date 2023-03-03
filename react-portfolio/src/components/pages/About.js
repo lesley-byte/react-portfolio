@@ -10,10 +10,7 @@ export default function About() {
         </Fade>
         <div className="main p-3 m-3 fs-3">
           <p>
-            My name is Lesley Vaden. 👋 I am looking for a full stack dev job.
-            I'm currently based out of Princeton NJ and have experience in html,
-            css, and JavaScript. I have a bachelor's degree in Philosophy and am
-            currently enrolled in the Rutgers Full Stack Coding bootcamp.
+            My name is Lesley Vaden. 👋 I am a Full Stack developer with experience in html, css, JavaScript, JQuery, OpenWeather API, AJAX, Bootstrap, node.js, express, sequelize, bcrypt, handlebars, heroku, insomnia, MySQL, user authentication, and MongoDB.
           </p>
         </div>
       </section>
