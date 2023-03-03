@@ -205,8 +205,8 @@ a:hover {
     height: 50vh !important;
   }
   .profile-img {
-    width: 40vw !important;
-    height: 40vw !important;
+    width: 35vw !important;
+    height: 35vw !important;
   }
 
 }
@@ -219,7 +219,7 @@ a:hover {
     font-size: 1rem;
   }
   h3 {
-    font-size: 1rem;
+    font-size: smaller !important;
   }
   p {
     width: 65vw;
@@ -233,9 +233,6 @@ a:hover {
   }
   .react-reveal {
     font-size: 1.5rem !important;
-  }
-  .boxStyles {
-    height: 40vh !important;
   }
 }
 /* Path: src\components\assets\css\style.css */
