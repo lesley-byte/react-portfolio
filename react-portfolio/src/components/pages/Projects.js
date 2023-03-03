@@ -30,21 +30,6 @@ export default function Projects() {
         </Fade>
         <div className="card-container container main d-flex flex-wrap">
           <a
-            href="https://www.lesleyvaden.dev"
-            className="card m-3"
-            style={styles.linkStyles}
-          >
-            <div class="card text-bg-dark">
-              <img
-                src={BytePortfolio}
-                className="card-img"
-                alt="..."
-                style={styles.imageStyles}
-              ></img>
-              <div class="card-img-overlay"></div>
-            </div>
-          </a>
-          <a
             href="https://sheltered-brushlands-89312.herokuapp.com/"
             className="card m-3"
             style={styles.linkStyles}
@@ -97,6 +82,21 @@ export default function Projects() {
             <div class="card text-bg-dark">
               <img
                 src={ByteSchedule}
+                className="card-img"
+                alt="..."
+                style={styles.imageStyles}
+              ></img>
+              <div class="card-img-overlay"></div>
+            </div>
+          </a>
+          <a
+            href="https://lesley-byte.github.io/lesley-byte-portfolio/"
+            className="card m-3"
+            style={styles.linkStyles}
+          >
+            <div class="card text-bg-dark">
+              <img
+                src={BytePortfolio}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
