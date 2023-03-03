@@ -37,15 +37,21 @@ export default function HeaderImgs() {
       backgroundRepeat: "no-repeat" /* Do not repeat the image */,
       backgroundSize:
         "cover" /* Resize the background image to cover the entire container */,
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "flex-end",
     },
     grayBoxStyles: {
       width: "max-content",
       height: "max-content",
-      marginLeft: "35vw",
+      marginRight: "15vw",
       border: "5px solid #b5838d",
       borderRadius: "10px",
       backgroundColor: "#b5838d",
       opacity: "0.85",
+    },
+    pStyles: {
+      fontSize: "2rem",
     },
   };
   return (

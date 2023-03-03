@@ -11,10 +11,13 @@ const bootstrap = require("bootstrap");
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
-  const collapseElementList = document.querySelectorAll(".collapse");
-  const collapseList = [...collapseElementList].map(
-    (collapseEl) => new bootstrap.Collapse(collapseEl)
-  );
+  // create if statement that only runs collapseList if the window is less than 992px
+  if (window.innerWidth < 992) {
+    const collapseElementList = document.querySelectorAll(".collapse");
+    const collapseList = [...collapseElementList].map(
+      (collapseEl) => new bootstrap.Collapse(collapseEl)
+    );
+  }
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {

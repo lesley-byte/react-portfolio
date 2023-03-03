@@ -109,6 +109,7 @@ a:hover {
 }
 /* media queries */
 
+
 @media screen and (max-width: 990px) {
   h1 {
     font-size: 2.5rem;
@@ -147,6 +148,13 @@ a:hover {
 
     width: fill-available !important;
   }
+
+}
+@media screen and (max-width: 1400px) {
+  .profile-img {
+    width: 20vw !important;
+    height: 20vw !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -167,6 +175,10 @@ a:hover {
   }
   .boxStyles {
     height: 70vh !important;
+  }
+.profile-img {
+    width: 30vw !important;
+    height: 30vw !important;
   }
 }
 
@@ -192,6 +204,11 @@ a:hover {
   .boxStyles {
     height: 50vh !important;
   }
+  .profile-img {
+    width: 40vw !important;
+    height: 40vw !important;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
