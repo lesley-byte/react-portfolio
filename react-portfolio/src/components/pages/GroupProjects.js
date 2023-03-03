@@ -11,16 +11,16 @@ const styles = {
     maxHeight: "fit-content",
     backgroundColor: "#e5989b",
   },
-  imageStyles: {
-    maxHeight: "fit-content",
-  },
+  imageStyles: {},
 };
 export default function GroupProjects() {
   return (
     <div>
       <section>
         <Fade left>
-          <h2 id="myProjects" className="p-1">Group Projects</h2>
+          <h2 id="myProjects" className="p-1">
+            Group Projects
+          </h2>
         </Fade>
         <div className="card-container container main d-flex flex-wrap">
           <a
@@ -28,17 +28,14 @@ export default function GroupProjects() {
             className="card m-3"
             style={styles.linkStyles}
           >
-            {" "}
-            <div id="item1">
-              <h4 className="card-header">Video Game Reviewer</h4>
-              <p className="card-body">▪️ MySQL Node Express Sequelize Handlebars</p>
+            <div class="card text-bg-dark">
               <img
                 src={screenshot}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
               ></img>
-              <div className="card-img-overlay"></div>
+              <div class="card-img-overlay"></div>
             </div>
           </a>
           <a
@@ -46,17 +43,14 @@ export default function GroupProjects() {
             className="card m-3"
             style={styles.linkStyles}
           >
-            {" "}
-            <div>
-              <h4 className="card-header">Word Search</h4>
-              <p className="card-body">▪️ JavaScript Bulma APIs</p>
+            <div class="card text-bg-dark">
               <img
                 src={wordSearch}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
               ></img>
-              <div className="card-img-overlay"></div>
+              <div class="card-img-overlay"></div>
             </div>
           </a>
         </div>

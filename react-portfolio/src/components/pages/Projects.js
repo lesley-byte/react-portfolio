@@ -5,7 +5,7 @@ import ByteSchedule from "../assets/images/byteSchedule.png";
 import ByteWeather from "../assets/images/byteWeather.png";
 import Fade from "react-reveal/Fade";
 
-import BytePortfolio from "../assets/images/lesley-byte-portfolio.png";
+import BytePortfolio from "../assets/images/screenshot.png";
 const styles = {
   linkStyles: {
     minWidth: "25rem",
@@ -34,17 +34,14 @@ export default function Projects() {
             className="card m-3"
             style={styles.linkStyles}
           >
-            {" "}
-            <div>
-              <h4 className="card-header">My Portfolio</h4>
-              <p className="card-body">▪️ html css</p>
+            <div class="card text-bg-dark">
               <img
                 src={BytePortfolio}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
               ></img>
-              <div className="card-img-overlay"></div>
+              <div class="card-img-overlay"></div>
             </div>
           </a>
           <a
@@ -52,17 +49,14 @@ export default function Projects() {
             className="card m-3"
             style={styles.linkStyles}
           >
-            {" "}
-            <div>
-              <h4 className="card-header">Example Tech Post Site</h4>
-              <p className="card-body">▪️ Node, MySQL</p>
+            <div class="card text-bg-dark">
               <img
                 src={ByteWriter}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
               ></img>
-              <div className="card-img-overlay"></div>
+              <div class="card-img-overlay"></div>
             </div>
           </a>
           <a
@@ -70,17 +64,14 @@ export default function Projects() {
             className="card m-3"
             style={styles.linkStyles}
           >
-            {" "}
-            <div>
-              <h4 className="card-header">Note Taker</h4>
-              <p className="card-body">▪️ JavaScript Heroku Bootstrap</p>
+            <div class="card text-bg-dark">
               <img
                 src={ByteNoteTaker}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
               ></img>
-              <div className="card-img-overlay"></div>
+              <div class="card-img-overlay"></div>
             </div>
           </a>
           <a
@@ -88,17 +79,14 @@ export default function Projects() {
             className="card m-3"
             style={styles.linkStyles}
           >
-            {" "}
-            <div>
-              <h4 className="card-header">Weather Dashboard</h4>
-              <p className="card-body">▪️ JavaScript Bootstrap </p>
+            <div class="card text-bg-dark">
               <img
                 src={ByteWeather}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
               ></img>
-              <div className="card-img-overlay"></div>
+              <div class="card-img-overlay"></div>
             </div>
           </a>
           <a
@@ -106,17 +94,14 @@ export default function Projects() {
             className="card m-3"
             style={styles.linkStyles}
           >
-            {" "}
-            <div>
-              <h4 className="card-header">Work Day Scheduler</h4>
-              <p className="card-body">▪️ JavaScript Bulma</p>
+            <div class="card text-bg-dark">
               <img
                 src={ByteSchedule}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
               ></img>
-              <div className="card-img-overlay"></div>
+              <div class="card-img-overlay"></div>
             </div>
           </a>
         </div>
