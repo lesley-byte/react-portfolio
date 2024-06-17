@@ -1,7 +1,7 @@
 import React from "react";
 import Profile from "../assets/images/profile.jpg";
 import cat from "../assets/images/wires.png";
-import Rotate from "react-reveal/Rotate";
+import { Rotate } from "react-awesome-reveal";
 
 export default function HeaderImgs() {
   const styles = {
@@ -63,16 +63,16 @@ export default function HeaderImgs() {
         style={styles.profileImgStyles}
       ></img>
       <div style={styles.grayBoxStyles}>
-        <Rotate top left>
+        <Rotate>
           <h3 style={styles.pStyles}>JavaScript</h3>
         </Rotate>
-        <Rotate top right>
+        <Rotate>
           <h3 style={styles.pStyles}>Full</h3>
         </Rotate>
-        <Rotate bottom left>
+        <Rotate>
           <h3 style={styles.pStyles}>Stack</h3>
         </Rotate>
-        <Rotate bottom right>
+        <Rotate>
           <h3 style={styles.pStyles}>Developer</h3>
         </Rotate>
       </div>

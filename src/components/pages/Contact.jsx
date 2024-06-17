@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 const styles = {
   linkStyles: {
     fontSize: "1.25rem",
@@ -13,7 +13,9 @@ export default function Contact() {
     <div>
       <section>
         <Fade left>
-        <h2 id="contactMe" className="p-1">Contact Me</h2>
+          <h2 id="contactMe" className="p-1">
+            Contact Me
+          </h2>
         </Fade>
         <nav className="navbar">
           <div className="container-fluid">

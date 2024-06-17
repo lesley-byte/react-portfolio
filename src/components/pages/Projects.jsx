@@ -3,7 +3,7 @@ import ByteNoteTaker from "../assets/images/byte-note-taker.png";
 import ByteWriter from "../assets/images/byte-writer.png";
 import ByteSchedule from "../assets/images/byteSchedule.png";
 import ByteWeather from "../assets/images/byteWeather.png";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import AbstractFlight from "../assets/images/abstract-flight.png";
 
 import BytePortfolio from "../assets/images/screenshot.png";
@@ -48,15 +48,15 @@ export default function Projects() {
             className="card m-3"
             style={styles.linkStyles}
           >
-            <div class="card text-bg-dark">
+            <div className="card text-bg-dark">
               <img
                 src={ByteWriter}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
               ></img>
-              <div class="card-img-overlay"></div>
-              <div class="card-img-overlay">
+              <div className="card-img-overlay"></div>
+              <div className="card-img-overlay">
                 <div style={styles.overlayText}>Heroku MySQL Example</div>
               </div>
             </div>
@@ -66,15 +66,15 @@ export default function Projects() {
             className="card m-3"
             style={styles.linkStyles}
           >
-            <div class="card text-bg-dark">
+            <div className="card text-bg-dark">
               <img
                 src={ByteNoteTaker}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
               ></img>
-              <div class="card-img-overlay"></div>
-              <div class="card-img-overlay">
+              <div className="card-img-overlay"></div>
+              <div className="card-img-overlay">
                 <div style={styles.overlayText}>Heroku Deployment</div>
               </div>
             </div>
@@ -84,15 +84,15 @@ export default function Projects() {
             className="card m-3"
             style={styles.linkStyles}
           >
-            <div class="card text-bg-dark">
+            <div className="card text-bg-dark">
               <img
                 src={ByteWeather}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
               ></img>
-              <div class="card-img-overlay"></div>
-              <div class="card-img-overlay">
+              <div className="card-img-overlay"></div>
+              <div className="card-img-overlay">
                 <div style={styles.overlayText}>Open Weather API</div>
               </div>
             </div>
@@ -102,15 +102,15 @@ export default function Projects() {
             className="card m-3"
             style={styles.linkStyles}
           >
-            <div class="card text-bg-dark">
+            <div className="card text-bg-dark">
               <img
                 src={ByteSchedule}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
               ></img>
-              <div class="card-img-overlay"></div>
-              <div class="card-img-overlay">
+              <div className="card-img-overlay"></div>
+              <div className="card-img-overlay">
                 <div style={styles.overlayText}>Bootstrap Example</div>
               </div>
             </div>
@@ -120,15 +120,15 @@ export default function Projects() {
             className="card m-3"
             style={styles.linkStyles}
           >
-            <div class="card text-bg-dark">
+            <div className="card text-bg-dark">
               <img
                 src={BytePortfolio}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
               ></img>
-              <div class="card-img-overlay"></div>
-              <div class="card-img-overlay">
+              <div className="card-img-overlay"></div>
+              <div className="card-img-overlay">
                 <div style={styles.overlayText}>Custom CSS</div>
               </div>
             </div>
@@ -138,14 +138,14 @@ export default function Projects() {
             className="card m-3"
             style={styles.linkStyles}
           >
-            <div class="card text-bg-dark">
+            <div className="card text-bg-dark">
               <img
                 src={AbstractFlight}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
               ></img>
-              <div class="card-img-overlay">
+              <div className="card-img-overlay">
                 <div style={styles.overlayText}>WordPress Site</div>
               </div>
             </div>

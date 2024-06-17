@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import React, { useState, useEffect } from "react";
 import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -7,19 +9,18 @@ import GroupProjects from "./pages/GroupProjects";
 import Contact from "./pages/Contact";
 import Name from "./pages/Name";
 
-const bootstrap = require("bootstrap");
-
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
-  // create if statement that only runs collapseList if the window is less than 992px
-  if (window.innerWidth < 992) {
-    const collapseElementList = document.querySelectorAll(".collapse");
-    const collapseList = [...collapseElementList].map(
-      (collapseEl) => new bootstrap.Collapse(collapseEl)
-    );
-  }
 
-  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  // useEffect(() => {
+  //   if (window.innerWidth < 992) {
+  //     const collapseElementList = document.querySelectorAll(".collapse");
+  //     const collapseList = [...collapseElementList].map(
+  //       (collapseEl) => new window.bootstrap.Collapse(collapseEl)
+  //     );
+  //   }
+  // }, []);
+
   const renderPage = () => {
     if (currentPage === "Home") {
       return <Home />;
@@ -50,7 +51,7 @@ export default function PortfolioContainer() {
       fontSize: "1.5rem",
       fontFamily: '"Roboto", sans-serif',
       backgroundColor: "#6d6875",
-      color: "ffb4a2",
+      color: "#ffb4a2",
     },
     nameStyles: {
       fontSize: "3rem",
@@ -63,11 +64,17 @@ export default function PortfolioContainer() {
       fontWeight: "bold",
     },
   };
-  // needed this to be explained again.🔥🗑️????
-  const handlePageChange = (page) => setCurrentPage(page);
+
+  const handlePageChange = (page) => {
+    try {
+      setCurrentPage(page);
+    } catch (error) {
+      console.error(`Failed to set current page: ${error}`);
+    }
+  };
 
   return (
-    <div>
+    <div style={styles.mainStyles}>
       <div className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <button
@@ -93,7 +100,6 @@ export default function PortfolioContainer() {
         </div>
       </div>
 
-      {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
     </div>
   );

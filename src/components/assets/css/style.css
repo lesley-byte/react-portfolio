@@ -53,7 +53,7 @@ section {
   display: flex;
 }
 p {
-  color: var(--neutralLight) !important;
+  color: var(--darkestColor) !important;
   font-weight: 400;
   margin: 0;
   flex-wrap: wrap;
@@ -109,7 +109,6 @@ a:hover {
 }
 /* media queries */
 
-
 @media screen and (max-width: 990px) {
   h1 {
     font-size: 2.5rem;
@@ -144,11 +143,9 @@ a:hover {
     font-size: smaller !important;
     width: fill-available !important;
   }
-  .navTabs{
-
+  .navTabs {
     width: fill-available !important;
   }
-
 }
 @media screen and (max-width: 1400px) {
   .profile-img {
@@ -176,7 +173,7 @@ a:hover {
   .boxStyles {
     height: 70vh !important;
   }
-.profile-img {
+  .profile-img {
     width: 30vw !important;
     height: 30vw !important;
   }
@@ -208,7 +205,6 @@ a:hover {
     width: 35vw !important;
     height: 35vw !important;
   }
-
 }
 
 @media screen and (max-width: 480px) {

@@ -2,7 +2,7 @@ import React from "react";
 import screenshot from "../assets/images/screenshot.jpeg";
 import wordSearch from "../assets/images/wordSearch.png";
 import checklistle from "../assets/images/checklistle.png";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const styles = {
   linkStyles: {
@@ -24,19 +24,19 @@ export default function GroupProjects() {
           </h2>
         </Fade>
         <div className="card-container container main d-flex flex-wrap">
-        <a
+          <a
             href="https://fierce-oasis-40648.herokuapp.com/"
             className="card m-3"
             style={styles.linkStyles}
           >
-            <div class="card text-bg-dark">
+            <div className="card text-bg-dark">
               <img
                 src={checklistle}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
               ></img>
-              <div class="card-img-overlay"></div>
+              <div className="card-img-overlay"></div>
             </div>
           </a>
           <a
@@ -44,14 +44,14 @@ export default function GroupProjects() {
             className="card m-3"
             style={styles.linkStyles}
           >
-            <div class="card text-bg-dark">
+            <div className="card text-bg-dark">
               <img
                 src={screenshot}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
               ></img>
-              <div class="card-img-overlay"></div>
+              <div className="card-img-overlay"></div>
             </div>
           </a>
           <a
@@ -59,14 +59,14 @@ export default function GroupProjects() {
             className="card m-3"
             style={styles.linkStyles}
           >
-            <div class="card text-bg-dark">
+            <div className="card text-bg-dark">
               <img
                 src={wordSearch}
                 className="card-img"
                 alt="..."
                 style={styles.imageStyles}
               ></img>
-              <div class="card-img-overlay"></div>
+              <div className="card-img-overlay"></div>
             </div>
           </a>
         </div>
