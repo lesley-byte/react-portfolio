@@ -2,6 +2,7 @@
   "name": "vite-react-portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://lesley-byte.github.io/react-portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
