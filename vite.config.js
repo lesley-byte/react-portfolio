@@ -21,4 +21,5 @@ export default defineConfig({
     loader: "jsx",
     include: /src\/.*\.jsx?$/,
   },
+  base: "/react-portfolio/", // Add this line
 });
