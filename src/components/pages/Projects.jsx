@@ -133,23 +133,6 @@ export default function Projects() {
               </div>
             </div>
           </a>
-          <a
-            href="https://lesley-byte.com/"
-            className="card m-3"
-            style={styles.linkStyles}
-          >
-            <div className="card text-bg-dark">
-              <img
-                src={AbstractFlight}
-                className="card-img"
-                alt="..."
-                style={styles.imageStyles}
-              ></img>
-              <div className="card-img-overlay">
-                <div style={styles.overlayText}>WordPress Site</div>
-              </div>
-            </div>
-          </a>
         </div>
       </section>
     </div>

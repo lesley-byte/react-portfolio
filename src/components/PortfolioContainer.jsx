@@ -8,6 +8,7 @@ import Projects from "./pages/Projects";
 import GroupProjects from "./pages/GroupProjects";
 import Contact from "./pages/Contact";
 import Name from "./pages/Name";
+import UnityGames from "./pages/UnityGames";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -33,6 +34,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === "GroupProjects") {
       return <GroupProjects />;
+    }
+    if (currentPage === "UnityGames") {
+      return <UnityGames />;
     }
     return <Contact />;
   };

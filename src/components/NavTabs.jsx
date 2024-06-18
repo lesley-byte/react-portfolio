@@ -55,6 +55,17 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
+          href="#unityGames"
+          onClick={() => handlePageChange("UnityGames")}
+          className={
+            currentPage === "UnityGames" ? "nav-link active" : "nav-link"
+          }
+        >
+          Unity Games
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
           href="#contact"
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
