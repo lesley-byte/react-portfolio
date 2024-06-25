@@ -1,15 +1,5 @@
 import React from "react";
 
-const styles = {
-  linkStyles: {
-    fontSize: "1.5rem",
-    fontFamily: '"Roboto", sans-serif',
-    backgroundColor: "#b5838d",
-    color: "#ffb4a2", // Corrected the color code
-    textDecoration: "none",
-  },
-};
-
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs navbar-nav">

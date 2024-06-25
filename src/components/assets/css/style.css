@@ -1,4 +1,5 @@
-/* My portfolio website. 👋 Background color is dark grey header text color is light blue. h2 has grey text and white background. */
+/* My portfolio website. */
+
 :root {
   --lightestColor: #ffffff;
   --secondLightest: #ffcdb2;
@@ -53,7 +54,7 @@ section {
   display: flex;
 }
 p {
-  color: var(--darkestColor) !important;
+  color: var(--neutralLight) !important;
   font-weight: 400;
   margin: 0;
   flex-wrap: wrap;
@@ -64,7 +65,7 @@ p {
 a {
   color: var(--secondLightest) !important;
   background-color: var(--secondDarkest) !important;
-  border-color: var(---neutralDark) !important;
+  border-color: var(--neutralDark) !important;
   font-size: 1rem;
   font-weight: 400;
   margin: 0;
@@ -86,17 +87,17 @@ img:hover {
 a:focus {
   color: var(--neutralDark) !important;
   background-color: var(--secondLightest) !important;
-  border-color: var(---neutralDark) !important;
+  border-color: var(--neutralDark) !important;
 }
 a:active {
   color: var(--neutralDark) !important;
   background-color: var(--secondLightest) !important;
-  border-color: var(---neutralDark) !important;
+  border-color: var(--neutralDark) !important;
 }
 a:hover {
   color: var(--darkestColor) !important;
   background-color: var(--secondDarkest) !important;
-  border-color: var(---neutralDark) !important;
+  border-color: var(--neutralDark) !important;
 }
 
 .customWord {
@@ -107,8 +108,48 @@ a:hover {
 .card-container {
   width: 90% !important;
 }
-/* media queries */
 
+/* styles for name component */
+.name-styles {
+  font-size: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #b5838d;
+  width: 25vw;
+  padding-right: 10px;
+  color: #ffcdb2;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* styles for Projects component */
+.link-styles {
+  min-width: 25rem;
+  max-width: 25rem;
+  min-height: fit-content;
+  max-height: fit-content;
+  background-color: #e5989b;
+}
+
+.image-styles {
+  max-height: fit-content;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black background */
+  padding: 10px; /* some padding */
+  border-radius: 5px; /* rounded corners */
+}
+
+/* media queries */
 @media screen and (max-width: 990px) {
   h1 {
     font-size: 2.5rem;
@@ -127,12 +168,12 @@ a:hover {
   }
   .customNavTabs {
     justify-content: normal !important;
-    width: fill-available !important;
+    width: 100% !important;
   }
   .nav-link {
     border-radius: 0px !important;
     background-color: var(--darkestColor) !important;
-    width: fill-available !important;
+    width: 100% !important;
   }
   a {
     border-radius: 0px !important;
@@ -141,12 +182,16 @@ a:hover {
     width: 100% !important;
     border-color: var(--secondDarkest) !important;
     font-size: smaller !important;
-    width: fill-available !important;
   }
   .navTabs {
-    width: fill-available !important;
+    width: 100% !important;
+  }
+  .name-styles {
+    font-size: 2.5rem;
+    width: 35vw;
   }
 }
+
 @media screen and (max-width: 1400px) {
   .profile-img {
     width: 20vw !important;
@@ -177,6 +222,10 @@ a:hover {
     width: 30vw !important;
     height: 30vw !important;
   }
+  .name-styles {
+    font-size: 2rem;
+    width: 50vw;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -205,6 +254,10 @@ a:hover {
     width: 35vw !important;
     height: 35vw !important;
   }
+  .name-styles {
+    font-size: 1.5rem;
+    width: 60vw;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -230,5 +283,8 @@ a:hover {
   .react-reveal {
     font-size: 1.5rem !important;
   }
+  .name-styles {
+    font-size: 1.5rem;
+    width: 70vw;
+  }
 }
-/* Path: src\components\assets\css\style.css */

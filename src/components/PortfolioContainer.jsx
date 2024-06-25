@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -9,18 +9,10 @@ import GroupProjects from "./pages/GroupProjects";
 import Contact from "./pages/Contact";
 import Name from "./pages/Name";
 import UnityGames from "./pages/UnityGames";
+import "./assets/css/style.css";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
-
-  // useEffect(() => {
-  //   if (window.innerWidth < 992) {
-  //     const collapseElementList = document.querySelectorAll(".collapse");
-  //     const collapseList = [...collapseElementList].map(
-  //       (collapseEl) => new window.bootstrap.Collapse(collapseEl)
-  //     );
-  //   }
-  // }, []);
 
   const renderPage = () => {
     if (currentPage === "Home") {
@@ -41,34 +33,6 @@ export default function PortfolioContainer() {
     return <Contact />;
   };
 
-  const styles = {
-    mainStyles: {
-      backgroundColor: "#ffb4a2",
-      color: "#6d6875",
-      fontFamily: '"Roboto", sans-serif',
-    },
-    headerStyles: {
-      padding: "10px",
-      display: "flex",
-      justifyContent: "flex-end",
-      alignItems: "flex-end",
-      fontSize: "1.5rem",
-      fontFamily: '"Roboto", sans-serif',
-      backgroundColor: "#6d6875",
-      color: "#ffb4a2",
-    },
-    nameStyles: {
-      fontSize: "3rem",
-      display: "flex",
-      justifyContent: "flex-end",
-      backgroundColor: "#b5838d",
-      width: "25vw",
-      paddingRight: "10px",
-      color: "#ffcdb2",
-      fontWeight: "bold",
-    },
-  };
-
   const handlePageChange = (page) => {
     try {
       setCurrentPage(page);
@@ -78,7 +42,7 @@ export default function PortfolioContainer() {
   };
 
   return (
-    <div style={styles.mainStyles}>
+    <div className="main-styles">
       <div className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <button
@@ -94,7 +58,7 @@ export default function PortfolioContainer() {
           </button>
           <Name />
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <div className="col customNavTabs" style={styles.headerStyles}>
+            <div className="col customNavTabs header-styles">
               <NavTabs
                 currentPage={currentPage}
                 handlePageChange={handlePageChange}
