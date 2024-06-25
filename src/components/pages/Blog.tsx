@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Projects() {
+const Blog: React.FC = () => {
   return (
     <div>
-      <h1>Projects Page</h1>
+      <h1>Blog Page</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
@@ -21,4 +21,6 @@ export default function Projects() {
       </p>
     </div>
   );
-}
+};
+
+export default Blog;

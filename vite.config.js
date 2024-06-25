@@ -8,7 +8,7 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "src"),
     },
-    extensions: [".js", ".jsx", ".json"],
+    extensions: [".js", ".jsx", ".ts", ".tsx", ".json"],
   },
   server: {
     port: 3000,
@@ -18,8 +18,8 @@ export default defineConfig({
     outDir: "dist",
   },
   esbuild: {
-    loader: "jsx",
-    include: /src\/.*\.jsx?$/,
+    loader: "tsx",
+    include: /src\/.*\.[tj]sx?$/,
   },
   base: "/react-portfolio/", // Add this line
 });

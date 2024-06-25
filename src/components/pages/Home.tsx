@@ -6,7 +6,7 @@ import Contact from "./Contact";
 import HeaderImgs from "./HeaderImgs";
 import UnityGames from "./UnityGames";
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <div>
       <HeaderImgs />
@@ -17,4 +17,6 @@ export default function Home() {
       <Contact />
     </div>
   );
-}
+};
+
+export default Home;

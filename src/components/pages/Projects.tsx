@@ -8,11 +8,11 @@ import AbstractFlight from "../assets/images/abstract-flight.png";
 import BytePortfolio from "../assets/images/screenshot.png";
 import "../assets/css/style.css";
 
-export default function Projects() {
+const Projects: React.FC = () => {
   return (
     <div>
       <section>
-        <Fade left>
+        <Fade>
           <h2 id="myProjects" className="p-1">
             Projects
           </h2>
@@ -26,7 +26,7 @@ export default function Projects() {
               <img
                 src={ByteWriter}
                 className="card-img image-styles"
-                alt="..."
+                alt="Byte Writer"
               ></img>
               <div className="card-img-overlay"></div>
               <div className="card-img-overlay">
@@ -42,7 +42,7 @@ export default function Projects() {
               <img
                 src={ByteNoteTaker}
                 className="card-img image-styles"
-                alt="..."
+                alt="Byte Note Taker"
               ></img>
               <div className="card-img-overlay"></div>
               <div className="card-img-overlay">
@@ -58,7 +58,7 @@ export default function Projects() {
               <img
                 src={ByteWeather}
                 className="card-img image-styles"
-                alt="..."
+                alt="Byte Weather"
               ></img>
               <div className="card-img-overlay"></div>
               <div className="card-img-overlay">
@@ -74,7 +74,7 @@ export default function Projects() {
               <img
                 src={ByteSchedule}
                 className="card-img image-styles"
-                alt="..."
+                alt="Byte Schedule"
               ></img>
               <div className="card-img-overlay"></div>
               <div className="card-img-overlay">
@@ -90,7 +90,7 @@ export default function Projects() {
               <img
                 src={BytePortfolio}
                 className="card-img image-styles"
-                alt="..."
+                alt="Byte Portfolio"
               ></img>
               <div className="card-img-overlay"></div>
               <div className="card-img-overlay">
@@ -102,4 +102,6 @@ export default function Projects() {
       </section>
     </div>
   );
-}
+};
+
+export default Projects;

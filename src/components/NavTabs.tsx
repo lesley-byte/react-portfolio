@@ -1,6 +1,11 @@
 import React from "react";
 
-function NavTabs({ currentPage, handlePageChange }) {
+interface NavTabsProps {
+  currentPage: string;
+  handlePageChange: (page: string) => void;
+}
+
+const NavTabs: React.FC<NavTabsProps> = ({ currentPage, handlePageChange }) => {
   return (
     <ul className="nav nav-tabs navbar-nav">
       <li className="nav-item">

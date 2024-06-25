@@ -12,30 +12,28 @@ import Name from "./pages/Name";
 import UnityGames from "./pages/UnityGames";
 import "./assets/css/style.css";
 
-export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("Home");
-  const [isCollapsed, setIsCollapsed] = useState(true);
+const PortfolioContainer: React.FC = () => {
+  const [currentPage, setCurrentPage] = useState<string>("Home");
+  const [isCollapsed, setIsCollapsed] = useState<boolean>(true);
 
   const renderPage = () => {
-    if (currentPage === "Home") {
-      return <Home />;
+    switch (currentPage) {
+      case "Home":
+        return <Home />;
+      case "About":
+        return <About />;
+      case "Projects":
+        return <Projects />;
+      case "GroupProjects":
+        return <GroupProjects />;
+      case "UnityGames":
+        return <UnityGames />;
+      default:
+        return <Contact />;
     }
-    if (currentPage === "About") {
-      return <About />;
-    }
-    if (currentPage === "Projects") {
-      return <Projects />;
-    }
-    if (currentPage === "GroupProjects") {
-      return <GroupProjects />;
-    }
-    if (currentPage === "UnityGames") {
-      return <UnityGames />;
-    }
-    return <Contact />;
   };
 
-  const handlePageChange = (page) => {
+  const handlePageChange = (page: string) => {
     try {
       setCurrentPage(page);
       setIsCollapsed(true); // Collapse the navbar on page change
@@ -80,4 +78,6 @@ export default function PortfolioContainer() {
       {renderPage()}
     </div>
   );
-}
+};
+
+export default PortfolioContainer;
