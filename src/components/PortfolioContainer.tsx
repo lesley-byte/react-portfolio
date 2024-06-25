@@ -1,5 +1,6 @@
+// PortfolioContainer.tsx
 // @ts-ignore
-import "bootstrap/dist/js/bootstrap.bundle.min";
+import "bootstrap/dist/js/bootstrap.bundle.min"; // This line intentionally has a type error
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
 import NavTabs from "./NavTabs";

@@ -4,7 +4,6 @@ import ByteWriter from "../assets/images/byte-writer.png";
 import ByteSchedule from "../assets/images/byteSchedule.png";
 import ByteWeather from "../assets/images/byteWeather.png";
 import { Fade } from "react-awesome-reveal";
-import AbstractFlight from "../assets/images/abstract-flight.png";
 import BytePortfolio from "../assets/images/screenshot.png";
 import "../assets/css/style.css";
 
