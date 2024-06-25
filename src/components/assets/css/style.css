@@ -297,6 +297,10 @@ img:hover {
     font-size: 2rem;
     width: 50vw;
   }
+  .box-styles {
+    background-image: url('../images/wiresSmall.png'); /* Change to the smaller image for mobile */
+    height: 44vh;
+  }
 }
 
 @media screen and (max-width: 600px) {
