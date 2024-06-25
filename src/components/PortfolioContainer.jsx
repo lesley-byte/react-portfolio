@@ -1,5 +1,6 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+// @ts-ignore
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
 import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
@@ -13,6 +14,7 @@ import "./assets/css/style.css";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
+  const [isCollapsed, setIsCollapsed] = useState(true);
 
   const renderPage = () => {
     if (currentPage === "Home") {
@@ -36,9 +38,14 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => {
     try {
       setCurrentPage(page);
+      setIsCollapsed(true); // Collapse the navbar on page change
     } catch (error) {
       console.error(`Failed to set current page: ${error}`);
     }
+  };
+
+  const toggleNavbar = () => {
+    setIsCollapsed(!isCollapsed);
   };
 
   return (
@@ -48,16 +55,18 @@ export default function PortfolioContainer() {
           <button
             className="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo01"
+            onClick={toggleNavbar}
             aria-controls="navbarTogglerDemo01"
-            aria-expanded="false"
+            aria-expanded={!isCollapsed}
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
           <Name />
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <div
+            className={`collapse navbar-collapse ${isCollapsed ? "" : "show"}`}
+            id="navbarTogglerDemo01"
+          >
             <div className="col customNavTabs header-styles">
               <NavTabs
                 currentPage={currentPage}
