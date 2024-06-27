@@ -1,5 +1,9 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
+import githubIcon from "../assets/images/github-mark.png"; // Path to the contact GitHub logo
+import linkedinIcon from '../assets/images/In-Blue-14@2x.png'; // Path to the LinkedIn logo
+import emailIcon from "../assets/images/icons8-email-50.png"; // Path to the email logo
+import footerGithubIcon from "../assets/images/GitHub_Logo.png"; // Path to the footer GitHub logo
 
 // Define the styles
 const styles = {
@@ -14,6 +18,31 @@ const styles = {
   navItemStyles: {
     display: "inline-block",
     margin: "0 10px",
+  },
+  iconStyles: {
+    width: "32px",
+    height: "32px",
+    margin: "0 5px", // Add margin for better spacing
+  },
+  footerStyles: {
+    marginTop: "2rem",
+    textAlign: "center" as const, // TypeScript requires as const for specific value types
+    backgroundColor: "#6d6875",
+    padding: "1rem",
+    color: "#fff",
+  },
+  footerIconStyles: {
+    width: "50px",
+    height: "24px",
+    marginLeft: "5px",
+    verticalAlign: "middle",
+  },
+  footerLinkStyles: {
+    color: "#fff",
+    textDecoration: "underline",
+    display: "inline-flex",
+    alignItems: "center",
+    width: "50px",
   },
 };
 
@@ -38,7 +67,7 @@ const Contact: React.FC = () => {
                   style={styles.linkStyles}
                   className="badge rounded-pill"
                 >
-                  Send Email 💖
+                  <img src={emailIcon} alt="Send Email" style={styles.iconStyles} />
                 </a>
               </li>
               {/* List item for GitHub profile */}
@@ -48,17 +77,7 @@ const Contact: React.FC = () => {
                   style={styles.linkStyles}
                   className="badge rounded-pill"
                 >
-                  Github
-                </a>
-              </li>
-              {/* List item for Twitter profile */}
-              <li className="nav-item m-3" style={styles.navItemStyles}>
-                <a
-                  href="https://twitter.com/lesley_vaden"
-                  style={styles.linkStyles}
-                  className="badge rounded-pill"
-                >
-                  Twitter
+                  <img src={githubIcon} alt="Github" style={styles.iconStyles} />
                 </a>
               </li>
               {/* List item for LinkedIn profile */}
@@ -68,13 +87,19 @@ const Contact: React.FC = () => {
                   style={styles.linkStyles}
                   className="badge rounded-pill"
                 >
-                  LinkedIn
+                  <img src={linkedinIcon} alt="LinkedIn" style={styles.iconStyles} />
                 </a>
               </li>
             </ul>
           </div>
         </nav>
       </section>
+      <footer style={styles.footerStyles}>
+        Made by Lesley Vaden. View this on <a href="https://github.com/lesley-byte/your-repo" 
+        className="badge rounded-pill">
+        <img src={footerGithubIcon} alt="GitHub" style={styles.footerIconStyles} />
+        </a>.
+      </footer>
     </div>
   );
 };
