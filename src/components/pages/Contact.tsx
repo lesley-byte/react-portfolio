@@ -95,7 +95,7 @@ const Contact: React.FC = () => {
         </nav>
       </section>
       <footer style={styles.footerStyles}>
-        Made by Lesley Vaden. View this on <a href="https://github.com/lesley-byte/your-repo" 
+        Made by Lesley Vaden. View this on <a href="https://github.com/lesley-byte/react-portfolio" 
         className="badge rounded-pill">
         <img src={footerGithubIcon} alt="GitHub" style={styles.footerIconStyles} />
         </a>.
